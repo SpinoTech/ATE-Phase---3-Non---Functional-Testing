@@ -1,0 +1,533 @@
+2024-02-11 22:59:26,347 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-02-11 22:59:26,356 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-02-11 22:59:26,356 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-02-11 22:59:26,361 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-02-11 22:59:26,361 INFO o.a.j.JMeter: Version 5.6.3
+2024-02-11 22:59:26,361 INFO o.a.j.JMeter: java.version=1.8.0_391
+2024-02-11 22:59:26,361 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-02-11 22:59:26,361 INFO o.a.j.JMeter: os.name=Windows 11
+2024-02-11 22:59:26,361 INFO o.a.j.JMeter: os.arch=amd64
+2024-02-11 22:59:26,361 INFO o.a.j.JMeter: os.version=10.0
+2024-02-11 22:59:26,361 INFO o.a.j.JMeter: file.encoding=Cp1252
+2024-02-11 22:59:26,361 INFO o.a.j.JMeter: java.awt.headless=null
+2024-02-11 22:59:26,361 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-02-11 22:59:26,361 INFO o.a.j.JMeter: Available Processors =8
+2024-02-11 22:59:26,364 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-02-11 22:59:26,364 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-02-11 22:59:26,364 INFO o.a.j.JMeter: JMeterHome=C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2024-02-11 22:59:26,364 INFO o.a.j.JMeter: user.dir  =C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-02-11 22:59:26,364 INFO o.a.j.JMeter: PWD       =C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-02-11 22:59:26,366 INFO o.a.j.JMeter: IP: 192.168.1.5 Name: CSCO-W-PF3MRZCB FullName: CSCO-W-PF3MRZCB.cisco.com
+2024-02-11 22:59:26,377 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-02-11 22:59:26,491 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-02-11 23:02:19,006 INFO o.a.j.e.KeyToolUtils: Exception checking for keytool existence, will return false, try another way.
+2024-02-11 23:02:19,184 INFO o.a.j.e.KeyToolUtils: keytool found at 'C:\Program Files\Java\jre-1.8\bin\keytool'
+2024-02-11 23:02:19,185 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:06:54,827 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-02-11 23:06:54,827 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-02-11 23:06:55,096 WARN o.a.j.p.h.p.ProxyControl: Existing ROOT Certificate has expired, a new one will be created, ensure you install it in browser, message: NotAfter: Wed Feb 07 10:42:49 IST 2024
+java.security.cert.CertificateExpiredException: NotAfter: Wed Feb 07 10:42:49 IST 2024
+	at sun.security.x509.CertificateValidity.valid(Unknown Source) ~[?:1.8.0_391]
+	at sun.security.x509.X509CertImpl.checkValidity(Unknown Source) ~[?:1.8.0_391]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1583) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1529) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:536) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:630) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:468) [ApacheJMeter_http.jar:5.6.3]
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source) [?:1.8.0_391]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) [darklaf-core-2.7.3.jar:2.7.3]
+	at java.awt.Component.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_391]
+2024-02-11 23:06:55,214 INFO o.a.j.p.h.p.ProxyControl: Creating HTTP(S) Test Script Recorder Root CA in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks, ensure you install certificate in your Browser for recording
+2024-02-11 23:06:57,530 INFO o.a.j.p.h.p.ProxyControl: Created keystore in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:06:57,531 INFO o.a.j.p.h.p.ProxyControl: Creating entry https://blazedemo.com/ in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:06:57,945 ERROR o.a.j.p.h.p.ProxyControl: Could not initialise key store
+java.io.IOException:   >> keytool error: java.lang.RuntimeException: java.io.IOException: DNSName components must consist of letters, digits, and hyphens <<
+Command failed, code: 1
+'"C:\Program Files\Java\jre-1.8\bin\keytool" -J-Xmx128m -genkeypair -alias https://blazedemo.com/ -dname "cn=https://blazedemo.com/, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 7 -ext san=dns:https://blazedemo.com/'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:174) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:291) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:282) ~[jorphan.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1634) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1529) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:536) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:630) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:468) [ApacheJMeter_http.jar:5.6.3]
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source) [?:1.8.0_391]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) [darklaf-core-2.7.3.jar:2.7.3]
+	at java.awt.Component.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_391]
+2024-02-11 23:07:21,071 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2024-02-11 23:07:21,072 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2024-02-11 23:07:21,072 INFO o.a.j.p.h.p.ProxyControl: Creating entry https://blazedemo.com/ in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:07:21,483 ERROR o.a.j.p.h.p.ProxyControl: Could not initialise key store
+java.io.IOException:   >> keytool error: java.lang.RuntimeException: java.io.IOException: DNSName components must consist of letters, digits, and hyphens <<
+Command failed, code: 1
+'"C:\Program Files\Java\jre-1.8\bin\keytool" -J-Xmx128m -genkeypair -alias https://blazedemo.com/ -dname "cn=https://blazedemo.com/, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 7 -ext san=dns:https://blazedemo.com/'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:174) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:291) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:282) ~[jorphan.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1634) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1529) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:536) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:630) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:468) [ApacheJMeter_http.jar:5.6.3]
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source) [?:1.8.0_391]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) [darklaf-core-2.7.3.jar:2.7.3]
+	at java.awt.Component.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_391]
+2024-02-11 23:07:38,279 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2024-02-11 23:07:38,279 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2024-02-11 23:07:38,279 INFO o.a.j.p.h.p.ProxyControl: Creating entry https://blazedemo.com/ in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:07:38,767 ERROR o.a.j.p.h.p.ProxyControl: Could not initialise key store
+java.io.IOException:   >> keytool error: java.lang.RuntimeException: java.io.IOException: DNSName components must consist of letters, digits, and hyphens <<
+Command failed, code: 1
+'"C:\Program Files\Java\jre-1.8\bin\keytool" -J-Xmx128m -genkeypair -alias https://blazedemo.com/ -dname "cn=https://blazedemo.com/, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 7 -ext san=dns:https://blazedemo.com/'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:174) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:291) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:282) ~[jorphan.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1634) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1529) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:536) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:630) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:468) [ApacheJMeter_http.jar:5.6.3]
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source) [?:1.8.0_391]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) [darklaf-core-2.7.3.jar:2.7.3]
+	at java.awt.Component.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_391]
+2024-02-11 23:18:08,038 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-02-11 23:18:08,038 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-02-11 23:18:08,038 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-02-11 23:18:08,038 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-02-11 23:19:08,623 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2024-02-11 23:19:08,623 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2024-02-11 23:19:08,624 INFO o.a.j.p.h.p.ProxyControl: Creating entry https://blazedemo.com/ in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:19:09,426 ERROR o.a.j.p.h.p.ProxyControl: Could not initialise key store
+java.io.IOException:   >> keytool error: java.lang.RuntimeException: java.io.IOException: DNSName components must consist of letters, digits, and hyphens <<
+Command failed, code: 1
+'"C:\Program Files\Java\jre-1.8\bin\keytool" -J-Xmx128m -genkeypair -alias https://blazedemo.com/ -dname "cn=https://blazedemo.com/, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 7 -ext san=dns:https://blazedemo.com/'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:174) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:291) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:282) ~[jorphan.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1634) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1529) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:536) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:630) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:468) [ApacheJMeter_http.jar:5.6.3]
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source) [?:1.8.0_391]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) [darklaf-core-2.7.3.jar:2.7.3]
+	at java.awt.Component.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_391]
+2024-02-11 23:20:02,805 INFO o.a.j.s.FileServer: Default base='C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
+2024-02-11 23:20:02,806 INFO o.a.j.s.FileServer: Set new base='C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\project'
+2024-02-11 23:20:02,941 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-02-11 23:20:02,946 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-02-11 23:20:02,948 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-02-11 23:20:06,068 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2024-02-11 23:20:06,068 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2024-02-11 23:20:06,068 INFO o.a.j.p.h.p.ProxyControl: Creating entry https://blazedemo.com/ in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:20:06,702 ERROR o.a.j.p.h.p.ProxyControl: Could not initialise key store
+java.io.IOException:   >> keytool error: java.lang.RuntimeException: java.io.IOException: DNSName components must consist of letters, digits, and hyphens <<
+Command failed, code: 1
+'"C:\Program Files\Java\jre-1.8\bin\keytool" -J-Xmx128m -genkeypair -alias https://blazedemo.com/ -dname "cn=https://blazedemo.com/, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 7 -ext san=dns:https://blazedemo.com/'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:174) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:291) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:282) ~[jorphan.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1634) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1529) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:536) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:630) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:468) [ApacheJMeter_http.jar:5.6.3]
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source) [?:1.8.0_391]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source) [?:1.8.0_391]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) [darklaf-core-2.7.3.jar:2.7.3]
+	at java.awt.Component.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.processEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_391]
+2024-02-11 23:21:24,689 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2024-02-11 23:21:24,690 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2024-02-11 23:21:24,690 INFO o.a.j.p.h.p.ProxyControl: Creating entry blazedemo.com in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:21:26,335 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2024-02-11 23:21:26,342 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2024-02-11 23:21:48,613 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
+2024-02-11 23:21:48,618 INFO o.a.j.p.h.p.ProxyControl: [56120]  Creating entry mozilla.cloudflare-dns.com in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:21:50,322 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-02-11 23:21:50,322 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-02-11 23:21:50,322 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-02-11 23:21:50,322 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-02-11 23:21:50,323 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-02-11 23:21:50,323 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-02-11 23:21:50,345 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = CSCO-W-PF3MRZCB
+2024-02-11 23:21:50,357 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-02-11 23:21:50,768 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-02-11 23:21:50,803 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-1 into controller 
+2024-02-11 23:21:50,899 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-3 into controller 
+2024-02-11 23:21:50,908 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-2 into controller 
+2024-02-11 23:21:51,104 INFO o.a.j.p.h.p.ProxyControl: [56139]  Creating entry aus5.mozilla.org in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:21:51,412 INFO o.a.j.p.h.p.Proxy: [56120]  KeyStore for SSL loaded OK and put host 'mozilla.cloudflare-dns.com' in map with key (mozilla.cloudflare-dns.com)
+2024-02-11 23:21:51,604 WARN o.a.j.p.h.p.Proxy: [56120]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:51,649 WARN o.a.j.p.h.p.Proxy: [56144]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:51,694 WARN o.a.j.p.h.p.Proxy: [56145]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:51,879 WARN o.a.j.p.h.p.Proxy: [56147]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:52,185 WARN o.a.j.p.h.p.Proxy: [56154]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:52,791 WARN o.a.j.p.h.p.Proxy: [56155]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:53,037 INFO o.a.j.p.h.p.ProxyControl: [56138]  Creating entry push.services.mozilla.com in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:21:53,039 INFO o.a.j.p.h.p.Proxy: [56139]  KeyStore for SSL loaded OK and put host 'aus5.mozilla.org' in map with key (aus5.mozilla.org)
+2024-02-11 23:21:53,079 WARN o.a.j.p.h.p.Proxy: [56139]  Problem with SSL certificate for url  for 'aus5.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:53,251 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-4 into controller 
+2024-02-11 23:21:53,258 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-5 into controller 
+2024-02-11 23:21:53,262 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-6 into controller 
+2024-02-11 23:21:53,888 WARN o.a.j.p.h.p.Proxy: [56162]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:54,766 WARN o.a.j.p.h.p.Proxy: [56163]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:54,953 INFO o.a.j.p.h.p.ProxyControl: [56136]  Creating entry classify-client.services.mozilla.com in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:21:54,953 INFO o.a.j.p.h.p.Proxy: [56138]  KeyStore for SSL loaded OK and put host 'push.services.mozilla.com' in map with key (push.services.mozilla.com)
+2024-02-11 23:21:54,960 WARN o.a.j.p.h.p.Proxy: [56137]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-02-11 23:21:54,993 WARN o.a.j.p.h.p.Proxy: [56138]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:55,066 WARN o.a.j.p.h.p.Proxy: [56168]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:55,087 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-7 into controller 
+2024-02-11 23:21:55,094 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-9 into controller 
+2024-02-11 23:21:55,102 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-8 into controller 
+2024-02-11 23:21:55,613 WARN o.a.j.p.h.p.Proxy: [56171]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:56,036 WARN o.a.j.p.h.p.Proxy: [56172]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:56,127 INFO o.a.j.p.h.p.Proxy: [56173]  KeyStore for SSL loaded OK and put host 'blazedemo.com' in map with key (blazedemo.com)
+2024-02-11 23:21:56,166 WARN o.a.j.p.h.p.Proxy: [56173]  Problem with SSL certificate for url  for 'blazedemo.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:56,309 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-10 into controller 
+2024-02-11 23:21:56,314 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-12 into controller 
+2024-02-11 23:21:56,319 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-13 into controller 
+2024-02-11 23:21:56,670 WARN o.a.j.p.h.p.Proxy: [56182]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:56,700 WARN o.a.j.p.h.p.Proxy: [56183]  Problem with SSL certificate for url  for 'blazedemo.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:56,717 INFO o.a.j.p.h.p.ProxyControl: Add sample /-11 into controller 
+2024-02-11 23:21:56,919 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-14 into controller 
+2024-02-11 23:21:56,925 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-15 into controller 
+2024-02-11 23:21:56,927 INFO o.a.j.p.h.p.ProxyControl: [56133]  Creating entry normandy.cdn.mozilla.net in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:21:56,928 INFO o.a.j.p.h.p.Proxy: [56136]  KeyStore for SSL loaded OK and put host 'classify-client.services.mozilla.com' in map with key (classify-client.services.mozilla.com)
+2024-02-11 23:21:56,930 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-16 into controller 
+2024-02-11 23:21:56,965 WARN o.a.j.p.h.p.Proxy: [56136]  Problem with SSL certificate for url  for 'classify-client.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:21:57,122 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-17 into controller 
+2024-02-11 23:21:57,128 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-18 into controller 
+2024-02-11 23:21:57,134 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-19 into controller 
+2024-02-11 23:21:58,521 INFO o.a.j.p.h.p.ProxyControl: [56131]  Creating entry content-signature-2.cdn.mozilla.net in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:21:58,522 INFO o.a.j.p.h.p.Proxy: [56133]  KeyStore for SSL loaded OK and put host 'normandy.cdn.mozilla.net' in map with key (normandy.cdn.mozilla.net)
+2024-02-11 23:21:58,524 WARN o.a.j.p.h.p.Proxy: [56133]  Problem with SSL certificate for url  for 'normandy.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2024-02-11 23:21:58,527 WARN o.a.j.p.h.p.Proxy: [56135]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-02-11 23:21:58,722 WARN o.a.j.p.h.p.Proxy: [56198]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:00,167 WARN o.a.j.p.h.p.Proxy: [56199]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:00,170 WARN o.a.j.p.h.p.Proxy: [56200]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:00,345 INFO o.a.j.p.h.p.ProxyControl: [56129]  Creating entry firefox.settings.services.mozilla.com in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:22:00,346 INFO o.a.j.p.h.p.Proxy: [56131]  KeyStore for SSL loaded OK and put host 'content-signature-2.cdn.mozilla.net' in map with key (content-signature-2.cdn.mozilla.net)
+2024-02-11 23:22:00,351 WARN o.a.j.p.h.p.Proxy: [56132]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-02-11 23:22:00,383 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-20 into controller 
+2024-02-11 23:22:00,389 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-22 into controller 
+2024-02-11 23:22:00,397 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-21 into controller 
+2024-02-11 23:22:00,400 WARN o.a.j.p.h.p.Proxy: [56131]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:00,585 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-23 into controller 
+2024-02-11 23:22:00,589 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-24 into controller 
+2024-02-11 23:22:00,594 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-25 into controller 
+2024-02-11 23:22:00,991 INFO o.a.j.p.h.p.ProxyControl: Add sample /-26 into controller 
+2024-02-11 23:22:02,300 INFO o.a.j.p.h.p.ProxyControl: [56127]  Creating entry contile.services.mozilla.com in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:22:02,301 INFO o.a.j.p.h.p.Proxy: [56129]  KeyStore for SSL loaded OK and put host 'firefox.settings.services.mozilla.com' in map with key (firefox.settings.services.mozilla.com)
+2024-02-11 23:22:02,306 WARN o.a.j.p.h.p.Proxy: [56128]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-02-11 23:22:02,306 WARN o.a.j.p.h.p.Proxy: [56130]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-02-11 23:22:02,356 WARN o.a.j.p.h.p.Proxy: [56129]  Problem with SSL certificate for url  for 'firefox.settings.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:02,416 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-27 into controller 
+2024-02-11 23:22:02,421 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-28 into controller 
+2024-02-11 23:22:02,425 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-29 into controller 
+2024-02-11 23:22:02,765 WARN o.a.j.p.h.p.Proxy: [56222]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:04,080 INFO o.a.j.p.h.p.Proxy: [56127]  KeyStore for SSL loaded OK and put host 'contile.services.mozilla.com' in map with key (contile.services.mozilla.com)
+2024-02-11 23:22:04,087 WARN o.a.j.p.h.p.Proxy: [56121]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-02-11 23:22:04,116 WARN o.a.j.p.h.p.Proxy: [56127]  Problem with SSL certificate for url  for 'contile.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:04,250 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-30 into controller 
+2024-02-11 23:22:04,255 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-32 into controller 
+2024-02-11 23:22:04,259 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-31 into controller 
+2024-02-11 23:22:06,407 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2024-02-11 23:22:06,411 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2024-02-11 23:22:06,411 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2024-02-11 23:22:06,423 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2024-02-11 23:22:06,424 INFO o.a.j.u.SSLManager: KeyStore created OK
+2024-02-11 23:22:06,424 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2024-02-11 23:22:07,109 INFO o.a.j.p.h.p.ProxyControl: Add sample /-33 into controller 
+2024-02-11 23:22:07,515 INFO o.a.j.p.h.p.ProxyControl: Add sample /assets/bootstrap-table.css-35 into controller 
+2024-02-11 23:22:07,716 INFO o.a.j.p.h.p.ProxyControl: Add sample /assets/bootstrap.min.css-37 into controller 
+2024-02-11 23:22:07,720 INFO o.a.j.p.h.p.ProxyControl: Add sample /assets/bootstrap.min.js-34 into controller 
+2024-02-11 23:22:08,277 WARN o.a.j.p.h.p.Proxy: [56240]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:08,514 INFO o.a.j.p.h.p.ProxyControl: [56241]  Creating entry blazemeter.trackinglibrary.prodperfect.com in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:22:08,534 INFO o.a.j.p.h.p.ProxyControl: Add sample /assets/bootstrap-table.js-36 into controller 
+2024-02-11 23:22:09,143 INFO o.a.j.p.h.p.ProxyControl: Add sample /favicon.ico-38 into controller 
+2024-02-11 23:22:10,187 INFO o.a.j.p.h.p.Proxy: [56241]  KeyStore for SSL loaded OK and put host 'blazemeter.trackinglibrary.prodperfect.com' in map with key (blazemeter.trackinglibrary.prodperfect.com)
+2024-02-11 23:22:10,228 WARN o.a.j.p.h.p.Proxy: [56241]  Problem with SSL certificate for url  for 'blazemeter.trackinglibrary.prodperfect.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:10,296 WARN o.a.j.p.h.p.Proxy: [56247]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:10,358 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-39 into controller 
+2024-02-11 23:22:10,362 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-41 into controller 
+2024-02-11 23:22:10,366 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-40 into controller 
+2024-02-11 23:22:10,369 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-42 into controller 
+2024-02-11 23:22:10,372 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-43 into controller 
+2024-02-11 23:22:10,375 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-44 into controller 
+2024-02-11 23:22:10,800 WARN o.a.j.p.h.p.Proxy: [56258]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:25,406 WARN o.a.j.p.h.p.Proxy: [56260]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:26,833 WARN o.a.j.p.h.p.Proxy: [56261]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:30,988 WARN o.a.j.p.h.p.Proxy: [56262]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:31,220 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-45 into controller 
+2024-02-11 23:22:31,223 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-47 into controller 
+2024-02-11 23:22:31,225 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-46 into controller 
+2024-02-11 23:22:42,882 INFO o.a.j.p.h.p.ProxyControl: Add sample /home-48 into controller 
+2024-02-11 23:22:43,490 INFO o.a.j.p.h.p.ProxyControl: Add sample /login-49 into controller 
+2024-02-11 23:22:43,897 INFO o.a.j.p.h.p.ProxyControl: [56279]  Creating entry fonts.googleapis.com in C:\Users\phaldar\Documents\APT3-nonFunctionalTesting\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-02-11 23:22:43,899 INFO o.a.j.p.h.p.ProxyControl: Add sample /css/app.css-51 into controller 
+2024-02-11 23:22:44,309 INFO o.a.j.p.h.p.ProxyControl: Add sample /js/app.js-50 into controller 
+2024-02-11 23:22:45,597 INFO o.a.j.p.h.p.Proxy: [56279]  KeyStore for SSL loaded OK and put host 'fonts.googleapis.com' in map with key (fonts.googleapis.com)
+2024-02-11 23:22:45,626 WARN o.a.j.p.h.p.Proxy: [56279]  Problem with SSL certificate for url  for 'fonts.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:45,746 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-52 into controller 
+2024-02-11 23:22:45,751 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-54 into controller 
+2024-02-11 23:22:45,755 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-53 into controller 
+2024-02-11 23:22:49,605 WARN o.a.j.p.h.p.Proxy: [56291]  Problem with SSL certificate for url  for 'blazemeter.trackinglibrary.prodperfect.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:49,613 INFO o.a.j.p.h.p.ProxyControl: Add sample /reserve.php-55 into controller 
+2024-02-11 23:22:49,817 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-56 into controller 
+2024-02-11 23:22:49,823 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-57 into controller 
+2024-02-11 23:22:49,826 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-58 into controller 
+2024-02-11 23:22:58,397 WARN o.a.j.p.h.p.Proxy: [56299]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:22:58,856 WARN o.a.j.p.h.p.Proxy: [56300]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:23:12,452 WARN o.a.j.p.h.p.Proxy: [56303]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:23:12,511 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-59 into controller 
+2024-02-11 23:23:12,714 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-60 into controller 
+2024-02-11 23:23:12,721 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-61 into controller 
+2024-02-11 23:23:16,450 WARN o.a.j.p.h.p.Proxy: [56314]  Problem with SSL certificate for url  for 'blazemeter.trackinglibrary.prodperfect.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:23:16,600 INFO o.a.j.p.h.p.ProxyControl: Add sample /purchase.php-62 into controller 
+2024-02-11 23:23:16,607 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-63 into controller 
+2024-02-11 23:23:16,614 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-65 into controller 
+2024-02-11 23:23:16,618 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-64 into controller 
+2024-02-11 23:24:02,669 WARN o.a.j.p.h.p.Proxy: [52231]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:24:02,901 WARN o.a.j.p.h.p.Proxy: [52234]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:24:03,421 WARN o.a.j.p.h.p.Proxy: [52237]  Problem with SSL certificate for url  for 'blazemeter.trackinglibrary.prodperfect.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:24:03,480 INFO o.a.j.p.h.p.ProxyControl: Add sample /confirmation.php-66 into controller 
+2024-02-11 23:24:03,489 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-67 into controller 
+2024-02-11 23:24:03,497 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-69 into controller 
+2024-02-11 23:24:03,503 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-68 into controller 
+2024-02-11 23:24:32,543 WARN o.a.j.p.h.p.Proxy: [52253]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:24:32,713 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-70 into controller 
+2024-02-11 23:24:32,718 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-71 into controller 
+2024-02-11 23:24:32,721 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-72 into controller 
+2024-02-11 23:24:44,476 WARN o.a.j.p.h.p.Proxy: [52265]  Problem with SSL certificate for url  for 'blazemeter.trackinglibrary.prodperfect.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:24:44,562 INFO o.a.j.p.h.p.ProxyControl: Add sample /index.php-73 into controller 
+2024-02-11 23:24:44,565 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-74 into controller 
+2024-02-11 23:24:44,568 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-76 into controller 
+2024-02-11 23:24:44,571 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-75 into controller 
+2024-02-11 23:24:47,219 INFO o.a.j.p.h.p.ProxyControl: Add sample /home-77 into controller 
+2024-02-11 23:24:47,755 WARN o.a.j.p.h.p.Proxy: [52277]  Problem with SSL certificate for url  for 'fonts.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:24:47,829 INFO o.a.j.p.h.p.ProxyControl: Add sample /login-78 into controller 
+2024-02-11 23:24:47,835 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-79 into controller 
+2024-02-11 23:24:47,842 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-81 into controller 
+2024-02-11 23:24:47,846 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-80 into controller 
+2024-02-11 23:25:02,195 WARN o.a.j.p.h.p.Proxy: [52310]  Problem with SSL certificate for url  for 'fonts.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:25:02,329 INFO o.a.j.p.h.p.ProxyControl: Add sample /login-82 into controller 
+2024-02-11 23:25:02,334 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-83 into controller 
+2024-02-11 23:25:02,337 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-84 into controller 
+2024-02-11 23:25:02,340 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-85 into controller 
+2024-02-11 23:25:05,665 WARN o.a.j.p.h.p.Proxy: [52322]  Problem with SSL certificate for url  for 'fonts.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:25:05,797 INFO o.a.j.p.h.p.ProxyControl: Add sample /login-86 into controller 
+2024-02-11 23:25:05,802 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-87 into controller 
+2024-02-11 23:25:05,806 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-89 into controller 
+2024-02-11 23:25:05,809 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-88 into controller 
+2024-02-11 23:25:06,706 WARN o.a.j.p.h.p.Proxy: [52329]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:25:06,934 WARN o.a.j.p.h.p.Proxy: [52330]  Problem with SSL certificate for url  for 'mozilla.cloudflare-dns.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:25:10,080 INFO o.a.j.p.h.p.ProxyControl: Add sample /-90 into controller 
+2024-02-11 23:25:10,099 WARN o.a.j.p.h.p.Proxy: [52333]  Problem with SSL certificate for url  for 'blazemeter.trackinglibrary.prodperfect.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-02-11 23:25:10,285 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-91 into controller 
+2024-02-11 23:25:10,289 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-93 into controller 
+2024-02-11 23:25:10,293 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-92 into controller 
+2024-02-11 23:25:19,179 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
